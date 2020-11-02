@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		26A1DE9D254ED787006C4655 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26A1DE9C254ED787006C4655 /* GoogleService-Info.plist */; };
+		26A1DEC1254FF314006C4655 /* WelcomeLogSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A1DEC0254FF314006C4655 /* WelcomeLogSign.swift */; };
+		26A1DEC6254FFA4B006C4655 /* LoginShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A1DEC5254FFA4B006C4655 /* LoginShow.swift */; };
 		26EE9CEA254ECA7300FBB485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EE9CE9254ECA7300FBB485 /* AppDelegate.swift */; };
 		26EE9CEC254ECA7300FBB485 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EE9CEB254ECA7300FBB485 /* SceneDelegate.swift */; };
 		26EE9CEE254ECA7300FBB485 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EE9CED254ECA7300FBB485 /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 		00A5F950E50E02208B484EFC /* Pods_AppProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		026BCE9483ACB4533C5424EC /* Pods-AppProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppProject.debug.xcconfig"; path = "Target Support Files/Pods-AppProject/Pods-AppProject.debug.xcconfig"; sourceTree = "<group>"; };
 		26A1DE9C254ED787006C4655 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26A1DEC0254FF314006C4655 /* WelcomeLogSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeLogSign.swift; sourceTree = "<group>"; };
+		26A1DEC5254FFA4B006C4655 /* LoginShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginShow.swift; sourceTree = "<group>"; };
 		26EE9CE6254ECA7300FBB485 /* AppProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EE9CE9254ECA7300FBB485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26EE9CEB254ECA7300FBB485 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 				26EE9CEB254ECA7300FBB485 /* SceneDelegate.swift */,
 				26EE9CED254ECA7300FBB485 /* ViewController.swift */,
 				26EE9CEF254ECA7300FBB485 /* Main.storyboard */,
+				26A1DEC0254FF314006C4655 /* WelcomeLogSign.swift */,
+				26A1DEC5254FFA4B006C4655 /* LoginShow.swift */,
 				26EE9CF2254ECA7400FBB485 /* Assets.xcassets */,
 				26EE9CF4254ECA7400FBB485 /* LaunchScreen.storyboard */,
 				26EE9CF7254ECA7400FBB485 /* Info.plist */,
@@ -410,8 +416,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A1DEC6254FFA4B006C4655 /* LoginShow.swift in Sources */,
 				26EE9CEE254ECA7300FBB485 /* ViewController.swift in Sources */,
 				26EE9CEA254ECA7300FBB485 /* AppDelegate.swift in Sources */,
+				26A1DEC1254FF314006C4655 /* WelcomeLogSign.swift in Sources */,
 				26EE9CEC254ECA7300FBB485 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

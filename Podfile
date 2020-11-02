@@ -9,6 +9,8 @@ target 'AppProject' do
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
     pod 'Firebase/Database'
+    
+    pod 'FBSDKLoginKit'
   target 'AppProjectTests' do
     inherit! :search_paths
     # Pods for testing
